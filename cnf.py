@@ -16,7 +16,7 @@ density = 1
 
 drag_coeff = 1
 # stop when reaching this number of simulation steps
-max_steps = float("inf")
+max_steps = 10#float("inf")
 
 # save every n steps
 save_steps = 2000
@@ -24,7 +24,7 @@ save_steps = 2000
 # if less bodies than this, the simulation will stop
 min_bodies = 2
 
-path = "D:/simulations/{}.db"
+path = "./simulations/{}.db"
 log_path = "logs/{}.csv"
 do_log = False
 
